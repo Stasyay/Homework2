@@ -10,6 +10,6 @@ else
 {
         while (a >= 1000)
         a = a/10; 
-}
  a = a%10;
-Console.WriteLine(a);
+Console.WriteLine("Третья цифра в этом числе: " + a);
+}
